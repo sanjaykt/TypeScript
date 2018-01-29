@@ -1,2 +1,2 @@
-# TypeScript
+# TypeScript Exercises
 TypeScript Exercises
