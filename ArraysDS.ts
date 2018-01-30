@@ -5,5 +5,5 @@ let arr = [1, 2, 3, 4, 5];
 let arrLenght = 5;
 
 if(arrLenght === arr.length){
-    console.log(arr.reverse());
+    console.log(arr.reverse().join(' '));
 }
