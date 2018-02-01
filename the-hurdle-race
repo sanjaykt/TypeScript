@@ -1,0 +1,15 @@
+//The Hurdle Race from https://www.hackerrank.com/challenges/the-hurdle-race/problem
+
+let k = 5; 
+let height = [1,6,3,5,2];
+
+let maxHeight = Math.max(...height);
+let nOfBeverages;
+
+if(maxHeight > k){
+    nOfBeverages = (maxHeight - k);
+} else {
+    nOfBeverages = 0;
+}
+
+console.log(nOfBeverages);
